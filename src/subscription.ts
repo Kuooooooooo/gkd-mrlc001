@@ -19,12 +19,12 @@ apps.forEach((appConfig) => {
 });
 
 export default defineGkdSubscription({
-  id: 29999,
+  id: 29999111,
   name: 'Van的自定义-订阅-不得转发和传播',
   version: 0,
-  author: 'Mrlc',
+  author: 'Van',
   checkUpdateUrl: './gkd.version.json5',
-  supportUri: 'https://github.com/mrlctate/gkd-mrlc/issues/new/choose',
+  // supportUri: 'https://github.com/mrlctate/gkd-mrlc/issues/new/choose',
   categories,
   globalGroups,
   apps: rawApps,
