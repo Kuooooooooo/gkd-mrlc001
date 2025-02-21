@@ -23,44 +23,44 @@ export default defineGkdApp({
         },
       ],
     },
-    {
-      key: 2,
-      name: '局部广告-广场页卡片广告',
-      rules: [
-        {
-          fastQuery: true,
-          activityIds: 'cn.soulapp.android.component.startup.main.MainActivity',
-          matches:
-            '[id="cn.soulapp.android:id/sl_ad_root"] >n [id="cn.soulapp.android:id/fl_tag_container"]',
-          snapshotUrls: 'https://i.gkd.li/i/12838000',
-        },
-      ],
-    },
-    {
-      key: 3,
-      name: '评价提示-app评分',
-      fastQuery: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: [
-        {
-          activityIds: [
-            '.component.chat.ConversationActivity',
-            '.component.startup.main.MainActivity',
-          ],
-          matches: [
-            '[vid="score_message"][visibleToUser=true]',
-            '[vid="cancel"][visibleToUser=true]',
-          ],
-          exampleUrls: 'https://e.gkd.li/4f67640e-836c-4b17-9870-5bb8b8547462',
-          snapshotUrls: [
-            'https://i.gkd.li/i/13425057',
-            'https://i.gkd.li/i/18423888',
-          ],
-        },
-      ],
-    },
+    // {
+    //   key: 2,
+    //   name: '局部广告-广场页卡片广告',
+    //   rules: [
+    //     {
+    //       fastQuery: true,
+    //       activityIds: 'cn.soulapp.android.component.startup.main.MainActivity',
+    //       matches:
+    //         '[id="cn.soulapp.android:id/sl_ad_root"] >n [id="cn.soulapp.android:id/fl_tag_container"]',
+    //       snapshotUrls: 'https://i.gkd.li/i/12838000',
+    //     },
+    //   ],
+    // },
+    // {
+    //   key: 3,
+    //   name: '评价提示-app评分',
+    //   fastQuery: true,
+    //   matchTime: 10000,
+    //   actionMaximum: 1,
+    //   resetMatch: 'app',
+    //   rules: [
+    //     {
+    //       activityIds: [
+    //         '.component.chat.ConversationActivity',
+    //         '.component.startup.main.MainActivity',
+    //       ],
+    //       matches: [
+    //         '[vid="score_message"][visibleToUser=true]',
+    //         '[vid="cancel"][visibleToUser=true]',
+    //       ],
+    //       exampleUrls: 'https://e.gkd.li/4f67640e-836c-4b17-9870-5bb8b8547462',
+    //       snapshotUrls: [
+    //         'https://i.gkd.li/i/13425057',
+    //         'https://i.gkd.li/i/18423888',
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       key: 4,
       name: '更新提示',
