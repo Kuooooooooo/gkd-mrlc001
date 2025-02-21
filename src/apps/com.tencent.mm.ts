@@ -576,6 +576,7 @@ export default defineGkdApp({
       desc: '点击下拉框-[关闭此广告]/[不感兴趣]-[与我无关]',
       activityIds: [
         '.plugin.brandservice.ui.timeline.preload.ui.TmplWebView', //调整为TmplWebView, 同时兼容多种ID
+        '.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI',
         '.plugin.webview.ui.tools.fts.MMSosWebViewUI',
         '.plugin.webview.ui.tools.MMWebViewUI',
       ],
